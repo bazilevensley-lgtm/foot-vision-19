@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Foot Vision 19 — images, vidéos, highlights et actualités football.">
+<title>Foot Vision 19 | La passion du football</title>
+<style>
+:root{--bg:#080d17;--panel:#111b2b;--panel2:#172338;--green:#a8f05a;--text:#f4f7fb;--muted:#a9b5c8}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+header{position:sticky;top:0;z-index:5;background:#080d17ee;border-bottom:1px solid #243149;backdrop-filter:blur(10px)}
+.nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-weight:900;font-size:1.25rem;letter-spacing:.5px}.brand span{color:var(--green)}
+nav{display:flex;gap:18px;flex-wrap:wrap}nav a{color:var(--muted);text-decoration:none;font-size:.92rem}nav a:hover{color:var(--green)}
+.hero{max-width:1100px;margin:28px auto;padding:20px;display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:center}
+.hero-copy{padding:20px 0}.tag{color:var(--green);font-weight:bold;letter-spacing:2px;font-size:.78rem}
+h1{font-size:clamp(2.4rem,6vw,4.5rem);line-height:.98;margin:14px 0}h1 span{color:var(--green)}
+p{color:var(--muted);line-height:1.65}.cta{display:inline-block;background:var(--green);color:#09111b;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:800;margin-top:8px}
+.hero-art{min-height:300px;border-radius:20px;overflow:hidden;background:linear-gradient(140deg,#1a3c2a,#101a2b 55%,#253c5b);position:relative;display:flex;align-items:center;justify-content:center}
+.hero-art:before{content:"";position:absolute;width:250px;height:250px;border:2px solid #a8f05a55;border-radius:50%;box-shadow:0 0 0 35px #a8f05a12,0 0 0 70px #a8f05a08}
+.ball{font-size:clamp(7rem,20vw,12rem);filter:drop-shadow(0 18px 20px #0008);z-index:1}
+main{max-width:1100px;margin:auto;padding:0 20px 50px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:22px 0 16px}.section-head h2{margin:0;font-size:1.55rem}.section-head small{color:var(--green)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--panel);border:1px solid #243149;border-radius:14px;overflow:hidden}.visual{height:165px;display:grid;place-items:center;background:linear-gradient(135deg,#193c2a,#203654);font-size:4rem;position:relative}.visual.alt{background:linear-gradient(135deg,#3c1c29,#263b58)}.visual.third{background:linear-gradient(135deg,#3a3420,#172b3f)}
+.play{position:absolute;bottom:12px;right:12px;background:var(--green);color:#07101b;border-radius:50%;width:38px;height:38px;display:grid;place-items:center;font-weight:bold}
+.card-body{padding:15px}.card h3{margin:0 0 7px;font-size:1rem}.card p{font-size:.88rem;margin:0}.label{display:inline-block;color:var(--green);font-size:.72rem;font-weight:bold;margin-bottom:8px;letter-spacing:1px}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.tile{min-height:130px;border-radius:12px;display:grid;place-items:center;font-size:3rem;background:linear-gradient(145deg,#213e2b,#1a2941);border:1px solid #26364d}.tile:nth-child(2n){background:linear-gradient(145deg,#3a2332,#172b45)}.tile:nth-child(3n){background:linear-gradient(145deg,#3b3522,#203348)}
+.notice{margin:18px 0;background:#142033;border:1px dashed #40516b;padding:14px;border-radius:10px;color:var(--muted);font-size:.88rem}
+footer{border-top:1px solid #243149;text-align:center;padding:24px;color:var(--muted);font-size:.85rem}
+@media(max-width:720px){.hero{grid-template-columns:1fr;margin:10px auto}.hero-art{min-height:220px}.cards{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="brand">FOOT <span>VISION 19</span> ⚽</div><nav><a href="#videos">Vidéos</a><a href="#galerie">Galerie</a><a href="#about">À propos</a></nav></div></header>
+<section class="hero">
+  <div class="hero-copy"><div class="tag">LA PASSION • LES IMAGES • LES HIGHLIGHTS</div>
+    <h1>Le football<br><span>en vision 19.</span></h1>
+    <p>Retrouve l'univers du ballon rond : moments forts, images de joueurs, actions spectaculaires et passion du jeu réunis au même endroit.</p>
+    <a class="cta" href="#videos">Découvrir les vidéos ↓</a>
+  </div>
+  <div class="hero-art" aria-label="Illustration football"><div class="ball">⚽</div></div>
+</section>
+<main>
+  <section id="videos">
+    <div class="section-head"><h2>🎬 À la une — vidéos</h2><small>HIGHLIGHTS</small></div>
+    <div class="cards">
+      <article class="card"><div class="visual">🏟️<span class="play">▶</span></div><div class="card-body"><span class="label">MATCHS</span><h3>Les plus beaux moments du match</h3><p>Ajoute ici une vidéo YouTube ou un résumé de match.</p></div></article>
+      <article class="card"><div class="visual alt">⚡<span class="play">▶</span></div><div class="card-body"><span class="label">ACTIONS</span><h3>Dribbles et gestes techniques</h3><p>Les actions qui font vibrer les supporters.</p></div></article>
+      <article class="card"><div class="visual third">🥅<span class="play">▶</span></div><div class="card-body"><span class="label">BUTS</span><h3>Les buts incroyables</h3><p>Une sélection de frappes et de buts mémorables.</p></div></article>
+    </div>
+    <div class="notice">Pour intégrer une vidéo, remplace une carte par un lecteur YouTube intégré. Publie uniquement des vidéos que tu possèdes ou que tu as le droit de partager.</div>
+  </section>
+  <section id="galerie">
+    <div class="section-head"><h2>📸 Galerie football</h2><small>IMAGES</small></div>
+    <div class="gallery"><div class="tile">⚽</div><div class="tile">🏆</div><div class="tile">🥅</div><div class="tile">👟</div><div class="tile">🏟️</div><div class="tile">🧤</div><div class="tile">📣</div><div class="tile">🔥</div></div>
+    <div class="notice">Les symboles sont des visuels de démonstration. Tu peux les remplacer par tes photos de joueurs, clubs et moments de football.</div>
+  </section>
+  <section id="about">
+    <div class="section-head"><h2>À propos de Foot Vision 19</h2><small>NOTRE PASSION</small></div>
+    <p>Foot Vision 19 est un espace dédié aux passionnés de football. Notre objectif : partager de belles images, des vidéos et des moments marquants du jeu.</p>
+  </section>
+</main>
+<footer>© 2026 Foot Vision 19 • Fait pour les passionnés de football ⚽</footer>
+</body>
+</html>
